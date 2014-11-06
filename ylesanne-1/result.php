@@ -14,16 +14,16 @@
     		echo "Tere, " .  $_GET['username'] . "!" . "</br>" . "Olete lehekülje vaatamiseks piisavalt vana.";
     	} 
     		else{
-    			echo "Tere, " .  $_GET['username'] . "!" . "</br>" . "Kahjuks olete liiga noor selle lehekülje külastmiseks.";
+    		echo "Tere, " .  $_GET['username'] . "!" . "</br>" . "Kahjuks olete liiga noor selle lehekülje külastmiseks.";
     	}
     	echo "</br>";
     	if (isset($_GET["username"], $_GET["age"])) {
         $username = $_GET["username"];
         $age = $_GET["age"]; 
-          echo " ";
+      echo " ";
       	} 
       		else {
-          		echo "Palun sisestage puuduv informatsioon.";
+      echo "Palun sisestage puuduv informatsioon.";
       	}
     ?>
   </body>
